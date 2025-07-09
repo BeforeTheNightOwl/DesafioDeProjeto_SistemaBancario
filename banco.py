@@ -46,7 +46,6 @@ while escolha != "q":
                 else:
                     saldo -= saque
                     quantidade_saques +=1
-                    print(quantidade_saques)
                     extrato += f"\n    saque: R$ {saque:.2f}"
 
 
